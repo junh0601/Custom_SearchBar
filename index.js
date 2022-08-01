@@ -96,4 +96,5 @@ keyboardPopout.addEventListener("click", ()=>searchFormBar.focus());
 deleteBtn.addEventListener("click", ()=> {
     searchFormBar.value=""
     wordCheck();
+    searchFormBar.focus();
 });

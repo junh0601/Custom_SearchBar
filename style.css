@@ -17,10 +17,12 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding:0;
 }
 
 form{
-    padding-left: 5vw;
+    margin :0;
+    padding-left: 0;
 }
 
 #selectedSite {
@@ -28,13 +30,20 @@ form{
     position : relative;
     bottom : 45px;
     left : 14px;
-    color : black;
+    color : white;
     background-color: brown;
     border-radius: 4px;
+    font-weight: bolder;
 }
 
+#search-form{
+    width: 100vw;
+    margin:0;
+    padding:0;
+}
 #search-form-bar{
-    width: 80vw;
+    width: 100%;
+    font-weight: bolder;
 }
 
 #keyboardPopout{
@@ -73,6 +82,10 @@ form{
     width : 40px;
     position: relative;
     right : 40px;
-    bottom : 9px;
+    bottom : 6px;
     border: 0;
+}
+
+#buttons{
+    padding : 10px;
 }
