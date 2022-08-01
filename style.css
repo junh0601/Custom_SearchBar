@@ -18,7 +18,7 @@ button{
     border-radius: 5px;
     font-size : 14px;
     font-weight: bolder;
-    background-color: rgba(0, 0, 0);;
+    background-color: #303134;
 }
 
 main{
@@ -37,7 +37,7 @@ form{
 #selectedSite {
     display:inline-block;
     position : relative;
-    bottom : 34px;
+    bottom : 32px;
     left : 10px;
     color : white;
     background-color: brown;
@@ -93,7 +93,7 @@ form{
     right : 40px;
     bottom : 0px;
     border: 0;
-    color:black;
+    font-size: 15px;
 }
 
 #buttons{

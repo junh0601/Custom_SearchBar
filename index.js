@@ -97,6 +97,7 @@ window.addEventListener("load", ()=>{
 searchForm.addEventListener("submit", handleSubmit)
 searchFormBar.addEventListener("input", handleInput);
 keyboardPopout.addEventListener("click", ()=>{
+    wordCheck();
     searchFormBar.focus();
     searchFormBar.select();
 });
