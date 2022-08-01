@@ -30,7 +30,11 @@ json.forEach(x => {
     buttons.appendChild(button).addEventListener("click", function(){
         const searchFormBarFirst = searchFormBar.value.split(" ");
         if(x.isShortcut){
-            return location.href = x.url;
+            if(x.openWindow){
+                return window.open( x.url);
+            }else{
+                return location.href = x.url;
+            }
         }
         if(searchFormBar.value===""){
             searchFormBar.value = x.site + " ";

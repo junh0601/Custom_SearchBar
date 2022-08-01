@@ -45,6 +45,7 @@
         "site" : "뉴스", 
         "url" : "https://junh0601.github.io/newsScrap/",
         "isShortcut" : true,
+        "openWindow" : true,
         "color" : "#202124"
     },
     {
