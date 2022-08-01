@@ -66,6 +66,8 @@ const handleSubmit = (event)=>{
             if(selectedSite.innerText){
                 const valueArray = innerValue.split(" ")
                 if(x.site === valueArray[0]){
+                    selectedSite.innerText = ""
+                    siteSelected = false;
                     location.href = x.url+valueArray.slice(1,valueArray.length).join(" ");
                 }
             }
