@@ -15,6 +15,10 @@ button{
     margin : 5px;
     border : 0;
     color: white;
+    border-radius: 5px;
+    font-size : 14px;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0);;
 }
 
 main{
@@ -52,15 +56,17 @@ form{
     font-weight: bolder;
     height : 20px;
     padding: 10px;
+    font-size : 14px;
+    font-weight: bolder;
 }
 
 #keyboardPopout{
     bottom : 0px;
     border: 10px;
-    height : 200px;
+    height : 50vh;
     margin : 20px;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,6 +93,7 @@ form{
     right : 40px;
     bottom : 0px;
     border: 0;
+    color:black;
 }
 
 #buttons{

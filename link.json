@@ -27,8 +27,7 @@
     {
         "site" : "이미지", 
         "url" : "https://www.google.com/search?tbm=isch&q=",
-        "isShortcut" : false,
-        "color" : "blue"
+        "isShortcut" : false
     }, 
     {
         "site" : "앱스토어", 
@@ -51,14 +50,12 @@
     {
         "site" : "날씨", 
         "url" : "https://weather.naver.com",
-        "isShortcut" : true,
-        "color" : "blue"
+        "isShortcut" : true
     },
     {
         "site" : "식단", 
         "url" : "http://m.welliv.co.kr/mobile/mealmenu_list.jsp",
-        "isShortcut" : true,
-        "color" : "blue"
+        "isShortcut" : true
     }
 
 ]
