@@ -1,0 +1,58 @@
+[
+    {
+      "site" : "구글",
+            "url" : "https://www.google.com/search?q=",
+            "isShortcut" : false,
+            "default" : true,
+            "color" : "#4285F4"
+    },
+    {
+        "site" : "네이버",
+        "url" : "https://search.naver.com/search.naver?ie=UTF-8&query=",
+        "isShortcut" : false,
+        "color" : "#04CF5C"
+    },
+    {
+        "site" : "유튜브",
+        "url" : "https://www.youtube.com/results?search_query=",
+        "isShortcut" : false,
+        "color" : "#F50101"
+    },
+    {
+        "site" : "사전",
+        "url" : "https://m.search.naver.com/search.naver?where=m_ldic&sm=mtb_jum&query=",
+        "isShortcut" : false,
+        "color" : "#03C75A"
+    },
+    {
+        "site" : "이미지", 
+        "url" : "https://www.google.com/search?tbm=isch&q=",
+        "isShortcut" : false,
+        "color" : "blue"
+    }, 
+    {
+        "site" : "앱스토어", 
+        "url" : "itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term={query}itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=",
+        "isShortcut" : false,
+        "color" : "#1899F1"
+    },
+    {
+        "site" : "카카오맵", 
+        "url" : "https://map.kakao.com/?q=",
+        "isShortcut" : false,
+        "color" : "#FDCD00"
+    },
+    {
+        "site" : "날씨", 
+        "url" : "https://weather.naver.com",
+        "isShortcut" : true,
+        "color" : "blue"
+    },
+    {
+        "site" : "식단", 
+        "url" : "http://m.welliv.co.kr/mobile/mealmenu_list.jsp",
+        "isShortcut" : true,
+        "color" : "blue"
+    }
+
+]

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <form id="search-form">
+        <div id="inputAndDelete">
+          <input
+            type="text"
+            placeholder="검색어 입력"
+            id="search-form-bar"
+            autocomplete="off"
+          />
+          <button type="button" id="deleteBtn">❌</button>
+        </div>
+        <div id="selectedSite"></div>
+        <div id="buttons"></div>
+      </form>
+      <div id="buttons"></div>
+      <center><div id="keyboardPopout"></div></center>
+    </main>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

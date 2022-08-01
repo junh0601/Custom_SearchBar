@@ -1,0 +1,60 @@
+button{
+    padding : 0;
+}
+
+
+
+.urlBtn{
+    width: 60px;
+    height: 30px;
+    font-size: small;
+    margin : 5px;
+    border : 0;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+form{
+    padding-left: 5vw;
+}
+
+#selectedSite {
+    display:inline-block;
+    position : relative;
+    bottom : 45px;
+    left : 14px;
+    color : black;
+    background-color: brown;
+    border-radius: 4px;
+}
+
+#search-form-bar{
+    width: 80vw;
+}
+
+#keyboardPopout{
+    bottom : 0px;
+    border: 10px;
+    height : 400px;
+    margin : 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#inputAndDelete{
+    display: flex;
+}
+
+#deleteBtn{
+    background-color: transparent;
+    width : 40px;
+    position: relative;
+    right : 40px;
+    bottom : 10px;
+    border: 0;
+}
