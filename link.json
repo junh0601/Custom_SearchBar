@@ -43,6 +43,12 @@
         "color" : "#FDCD00"
     },
     {
+        "site" : "뉴스", 
+        "url" : "https://junh0601.github.io/newsScrap/",
+        "isShortcut" : true,
+        "color" : "#202124"
+    },
+    {
         "site" : "날씨", 
         "url" : "https://weather.naver.com",
         "isShortcut" : true,

@@ -12,19 +12,19 @@
     <main>
       <form id="search-form">
         <div id="inputAndDelete">
-          <input
-            type="text"
-            placeholder="검색어 입력"
-            id="search-form-bar"
-            autocomplete="off"
-          />
+          <input type="text" id="search-form-bar" autocomplete="off" />
           <button type="button" id="deleteBtn">❌</button>
         </div>
         <div id="selectedSite"></div>
         <div id="buttons"></div>
       </form>
       <div id="buttons"></div>
-      <center><div id="keyboardPopout"></div></center>
+      <center>
+        <div id="keyboardPopout">
+          <div id="keyboardPopout_text">여기를 눌러 키보드 열기</div>
+          <div id="keyboardPopout_icon">​⌨️​</div>
+        </div>
+      </center>
     </main>
 
     <script type="module" src="index.js"></script>
