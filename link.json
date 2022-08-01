@@ -3,7 +3,7 @@
       "site" : "구글",
             "url" : "https://www.google.com/search?q=",
             "isShortcut" : false,
-            "default" : true,
+            "isDefault" : true,
             "color" : "#4285F4"
     },
     {

@@ -57,14 +57,24 @@ json.forEach(x => {
 const handleSubmit = (event)=>{
     event.preventDefault();
     const innerValue = searchFormBar.value;
-    json.forEach(x=>{
-        if(selectedSite.innerText){
-            const valueArray = innerValue.split(" ")
-            if(x.site === valueArray[0]){
-                location.href = x.url+valueArray.slice(1,valueArray.length).join(" ");
+    if(siteSelected){
+        json.forEach(x=>{
+            if(selectedSite.innerText){
+                const valueArray = innerValue.split(" ")
+                if(x.site === valueArray[0]){
+                    location.href = x.url+valueArray.slice(1,valueArray.length).join(" ");
+                }
             }
-        }
-    })
+        });
+    }else{
+        json.forEach(x=>{
+            if(x.isDefault){
+                location.href = x.url+innerValue;
+            }
+        });
+    }
+    
+
 }
 
 
@@ -98,7 +108,7 @@ searchForm.addEventListener("submit", handleSubmit)
 searchFormBar.addEventListener("input", handleInput);
 keyboardPopout.addEventListener("click", ()=>{
     wordCheck();
-    searchFormBar.focus();
+    selectedSite.innerText = ""
     searchFormBar.select();
 });
 deleteBtn.addEventListener("click", (event)=> {
