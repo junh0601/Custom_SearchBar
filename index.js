@@ -90,10 +90,17 @@ const handleInput = (event) =>{
 }
 
 wordCheck();
+window.addEventListener("load", ()=>{
+    wordCheck();
+    searchFormBar.value="";
+});
 searchForm.addEventListener("submit", handleSubmit)
 searchFormBar.addEventListener("input", handleInput);
-keyboardPopout.addEventListener("click", ()=>searchFormBar.focus());
-deleteBtn.addEventListener("click", ()=> {
+keyboardPopout.addEventListener("click", ()=>{
+    searchFormBar.focus();
+    searchFormBar.select();
+});
+deleteBtn.addEventListener("click", (event)=> {
     searchFormBar.value=""
     wordCheck();
     searchFormBar.focus();
