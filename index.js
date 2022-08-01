@@ -66,9 +66,9 @@ const handleSubmit = (event)=>{
             if(selectedSite.innerText){
                 const valueArray = innerValue.split(" ")
                 if(x.site === valueArray[0]){
+                    location.href = x.url+valueArray.slice(1,valueArray.length).join(" ");
                     selectedSite.innerText = ""
                     siteSelected = false;
-                    location.href = x.url+valueArray.slice(1,valueArray.length).join(" ");
                 }
             }
         });
@@ -114,7 +114,6 @@ searchForm.addEventListener("submit", handleSubmit)
 searchFormBar.addEventListener("input", handleInput);
 keyboardPopout.addEventListener("click", ()=>{
     wordCheck();
-    selectedSite.innerText = ""
     searchFormBar.select();
 });
 deleteBtn.addEventListener("click", (event)=> {
